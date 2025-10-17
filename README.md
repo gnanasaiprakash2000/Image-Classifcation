@@ -19,7 +19,7 @@ Image-Classifcation/ │ ├── data/                   # Dataset directory �
 ### Prerequisites
 Make sure Python 3.6+ is installed. Install dependencies using:
 
-```bash
+
 pip install -r requirements.txt
 Dataset
 
