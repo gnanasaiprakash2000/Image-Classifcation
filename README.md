@@ -52,7 +52,7 @@ Evaluate performance on test data:
 python evaluate_model.py
 
 
----
+
 # 🧠 Deep Learning with Neural Networks
 
 Neural networks are inspired by the human brain and consist of layers of neurons:
