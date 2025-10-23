@@ -53,56 +53,5 @@ python evaluate_model.py
 
 
 
-# 🧠 Deep Learning with Neural Networks
 
-Neural networks are inspired by the human brain and consist of layers of neurons:
-
-- **Input layer:** Takes features of your data.  
-- **Hidden layers:** Transform inputs through weighted connections and activation functions.  
-- **Output layer:** Produces predictions or classifications.  
-
-### Neuron Computation
-Each neuron computes:
-
-\[
-y = f\left(\sum_{i=1}^{n} w_i x_i + b\right)
-\]
-
-Where:  
-- \(x_i\) = input  
-- \(w_i\) = weight  
-- \(b\) = bias  
-- \(f\) = activation function  
-
----
-
-### Activation Functions
-- **Sigmoid:** Outputs 0–1 → probability  
-- **ReLU:** Most common → \(\max(0, x)\)  
-- **Tanh:** Outputs -1 to 1  
-
----
-
-### Types of Neural Networks
-- **Feedforward (FNN):** Basic network, input → hidden → output  
-- **Convolutional (CNN):** Best for images, detects edges and patterns  
-- **Recurrent (RNN / LSTM / GRU):** Best for sequences (text, time series)  
-- **Autoencoders:** Learn data compression and reconstruction  
-- **GANs:** Generate realistic data with Generator & Discriminator  
-
----
-
-### Training a Neural Network
-1. **Forward pass** → compute predictions  
-2. **Loss calculation** → measure error  
-3. **Backward pass** → compute gradients  
-4. **Update weights** → using optimizers like Adam or SGD  
-
----
-
-### Key Concepts
-- **Overfitting:** Model memorizes data → use Dropout or Data Augmentation  
-- **Learning rate:** Step size for weight updates  
-- **Batch size & Epochs:** Controls training speed and coverage  
-- **Normalization:** Scales features → faster training
 
